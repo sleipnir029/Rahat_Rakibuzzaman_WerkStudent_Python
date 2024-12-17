@@ -10,9 +10,9 @@ This repository contains the interview task for the WerkStudent position in Pyth
 1. **Data Extraction**:
     - Extract specific values from three sample invoices.
     - For Sample 1, extract the value shown in the provided image.
-      <img width="289" alt="image" src="https://github.com/user-attachments/assets/0cf000ff-c305-4ffe-beb4-1c02a04d06b6" />
+    - <img width="289" alt="image" src="https://github.com/user-attachments/assets/0cf000ff-c305-4ffe-beb4-1c02a04d06b6" />
     - For Samples 2 and 3, extract the value shown in the provided image.
-      <img width="376" alt="image" src="https://github.com/user-attachments/assets/c8b4d206-940c-4849-bff7-a32e3e436d99" />
+    - <img width="376" alt="image" src="https://github.com/user-attachments/assets/c8b4d206-940c-4849-bff7-a32e3e436d99" />
 2. **Excel File Creation**:
     - Create an Excel file with two sheets:
         - **Sheet 1**: Contains three columns - File Name, Date (scraped from the document), and Value.
