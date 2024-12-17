@@ -16,7 +16,7 @@ This repository contains the interview task for the WerkStudent position in Pyth
 
 2. **Excel File Creation**:
     - Create an Excel file with two sheets:
-        - **Sheet 1**: Contains three columns - File Name, Data (scraped from the document), and Value.
+        - **Sheet 1**: Contains three columns - File Name, Date (scraped from the document), and Value.
         - **Sheet 2**: Contains a pivot table with the date and value sum, and also by document name.
 
 3. **CSV File Creation**:
@@ -36,8 +36,6 @@ This repository contains the interview task for the WerkStudent position in Pyth
 7. **Problem Reporting**:
     - If you face any problems or find it impossible to complete a task, document the issue in the README file of your branch. Explain what the problem was and why you were unable to complete it.
 
-8. **Timeline**:
-    - The timeline for this task is one week (7 days, not only working days) from the day you received the task.
 
 ## How It Works
 
@@ -56,15 +54,14 @@ This repository contains the interview task for the WerkStudent position in Pyth
 4. **Executable File**:
     - An executable file is provided to run the entire code. Ensure the sample invoices are in the same folder as the executable file.
 
+5. **Requirements File**:
+    -A requirements.txt file is included to create the environment needed to run the code
+
 ## Running the Code
 
 1. Place the sample invoices in the same folder as the executable file.
 2. Run the executable file to execute the code and generate the Excel and CSV files.
 
-## Branch Creation
-
-1. Create a branch named `LastName_FirstName` (e.g., `Shovon_Golam`).
-2. Upload your code to this branch.
 
 ## Documentation
 
