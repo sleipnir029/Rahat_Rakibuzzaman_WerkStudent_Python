@@ -1,37 +1,3 @@
-# WerkStudent_Python
-This Repo Is for the interview task for the WerkStudent In python
-
-
-Task details. 
-
-The goal is to collect data from the three sample invoices, create excel file with 2 sheets. One sheet should contain the file name and the data extracted from it. 
-
-Form Sample one this valuze should be extracted 
-
-<img width="289" alt="image" src="https://github.com/user-attachments/assets/0cf000ff-c305-4ffe-beb4-1c02a04d06b6" />
-
-From sample 2 and 3 this value should be extracted 
-
-<img width="376" alt="image" src="https://github.com/user-attachments/assets/c8b4d206-940c-4849-bff7-a32e3e436d99" />
-
-The first sheet should have three columns , The file name, data (you scrap the data from the document too) and the value. 
-
-In the second sheet, create a pivot will all of this , date and value sum and also by document name. 
-
-Crate a csv file with all of this data with the header present and with the separator as ;(semicolon).
-
-An exe file should be there to run the code , if the files are in the same folder , the exe file should able to run the whole code. 
-
-crate a branch in this repo as , name the branch as LastName_FirstName(Example Shovon_Golam), upload your code, no need to submit a push request. I will check your branch . 
-
-In the readme file, put explanation of your code as such a non technical person can understand. How it works. '
-
-The code should be documented so a technical person can understand. 
-
-
-Sure, I've added that information to the instructions. Here's the updated version:
-
----
 
 # WerkStudent_Python
 
@@ -113,6 +79,4 @@ This repository contains the interview task for the WerkStudent position in Pyth
 
 - The timeline for this task is one week (7 days, not only working days) from the day you received the task.
 
----
 
-Feel free to adjust any details as needed!
