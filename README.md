@@ -74,6 +74,6 @@ This repository contains the interview task for the WerkStudent position in Pyth
 
 ## Timeline
 
-- The timeline for this task is one week (7 days, not only working days) from the day you received the task.
+- The time limit for this task is 9 January 2025. 
 
 
