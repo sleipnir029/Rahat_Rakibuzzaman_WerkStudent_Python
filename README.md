@@ -25,9 +25,9 @@ This repository contains the interview task for the WerkStudent position in Pyth
 4. **Executable File**:
     - Provide an executable file (.exe) that can run the code if the files are in the same folder.
 
-5. **Branch Creation**:
-    - Create a branch in this repository named `LastName_FirstName` (e.g., `Shovon_Golam`).
-    - Upload your code to this branch. No need to submit a pull request; the branch will be checked directly.
+5. **Fork Creation**:
+    - Create a fork of this repository named `LastName_FirstName_WerkStudent_Python` (e.g., `Shovon_Golam_WerkStudent_Python`).
+    - Upload your code to this branch. No need to submit a pull request; the fork will be checked directly.
 
 6. **Documentation**:
     - Include an explanation in the README file that a non-technical person can understand.
