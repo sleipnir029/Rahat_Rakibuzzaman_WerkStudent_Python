@@ -147,7 +147,7 @@ pyinstaller --onefile --add-data "pdf_config.json:." pdf_to_text_extraction.py
 ### **2️. pdf_annotation.py**
 - Reads PDFs and marks **indexed text** inside a **green box**.
 - Places **index numbers** as superscripts.
-- Generates an **index table** listing all detected values.
+- Generates an **Text Index Table** listing all detected values.
 
 The script **`pdf_annotation.py`** provides several command-line arguments to **customize** the annotation process. These parameters allow users to adjust colors, font sizes, spacing, and other configurations when marking up PDFs.
 
@@ -161,9 +161,9 @@ The script **`pdf_annotation.py`** provides several command-line arguments to **
 | `--index_color`           | `float`  | `[1, 0, 0]` (Red)       | RGB values for index number annotations. |
 | `--index_font_size`       | `int`    | `8`                     | Font size for index numbers. |
 | `--index_offset`          | `int`    | `[5, -5]`               | Offset for positioning index numbers (superscript). |
-| `--table_font_size`       | `int`    | `8`                     | Font size for index table at the end of PDF. |
-| `--line_spacing`          | `int`    | `12`                    | Line spacing in the index table. |
-| `--max_entries_per_page`  | `int`    | `50`                    | Maximum entries before a new index table page is created. |
+| `--table_font_size`       | `int`    | `8`                     | Font size for Text Index Table at the beginning of PDF. |
+| `--line_spacing`          | `int`    | `12`                    | Line spacing in the Text Index Table. |
+| `--max_entries_per_page`  | `int`    | `50`                    | Maximum entries before a new Text Index Table page is created. |
 
  **Run the script with default parameters:**
 ```bash
@@ -178,7 +178,7 @@ python pdf_annotation.py --output_folder "custom_annotated_pdfs" --rectangle_col
 - Saves annotated PDFs to `"custom_annotated_pdfs"`
 - Sets blue bounding boxes (`rectangle_color 0 0 1`)
 - Sets orange index numbers (`index_color 1 0.5 0`)
-- Increases `font sizes` and `spacing` in the index table.
+- Increases `font sizes` and `spacing` in the Text Index Table.
 
 ### **3️. pdf_config.json**
 📌 **Understanding `pdf_config.json`**
@@ -248,7 +248,7 @@ Total: USD $950.00  ← Extract this text (offset 0)
 |`2`        |	Extracts data only from Page 2.|
 
 🛠 **Modifying `pdf_config.json` for New Data Extraction**
-If a user wants to extract new fields, they only need to update `pdf_config.json` and do not need to modify the script. For this, they can check the `annotated_documents` folder for the desired annotated PDF file running the `pdf_annotation.py` script and check both `text region` and `index value` along with the `index table` at the beginning of the annotated PDF.
+If a user wants to extract new fields, they only need to update `pdf_config.json` and do not need to modify the script. For this, they can check the `annotated_documents` folder for the desired annotated PDF file running the `pdf_annotation.py` script and check both `text region` and `index value` along with the `Text Index Table` at the beginning of the annotated PDF.
 
 ✅ **Example: Adding a New Field**
 If a PDF contains `"Tax Amount"`, and the value appears two lines below, modify `pdf_config.json`:
@@ -263,7 +263,7 @@ If a PDF contains `"Tax Amount"`, and the value appears two lines below, modify 
     }
 }
 ```
-This will result in the following extraction which can be seen from the `index table` of the annotated PDF of `sample_invoice_2_annotated.pdf`
+This will result in the following extraction which can be seen from the `Text Index Table` of the annotated PDF of `sample_invoice_2_annotated.pdf`
 ```python
 Payment due:
 30 days after invoice date  ← Extract this line (offset 1)
