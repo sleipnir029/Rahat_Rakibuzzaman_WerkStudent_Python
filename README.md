@@ -291,6 +291,8 @@ Payment due:
 
 ## 🔄 Next Steps
 - Extend support for **Windows & Linux executables**.
-- Add **more dynamic cleanup functions** for extracted data.
+- Add **more dynamic cleanup functions** for desired extracted data.
+- Add `USD-EUR conversion` support with historical date by date conversion rate for precise conversion and calculation.
+- Add improved `multiple page pdf` support.
 
 **✅ Ready to extract data from your PDFs effortlessly! 🚀**
