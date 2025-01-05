@@ -59,7 +59,7 @@ sample_invoice_2.pdf;2016-11-26;950.00 $;921.50
 3. [Installation & Running the Code](https://github.com/sleipnir029/Rahat_Rakibuzzaman_WerkStudent_Python?tab=readme-ov-file#-installation--running-the-code)
 4. [Building Executable from Source](https://github.com/sleipnir029/Rahat_Rakibuzzaman_WerkStudent_Python?tab=readme-ov-file#%EF%B8%8F-building-executable-from-source)
 5. [Code Structure & How it Works](https://github.com/sleipnir029/Rahat_Rakibuzzaman_WerkStudent_Python?tab=readme-ov-file#-code-structure--how-it-works)
-6. [JSON Configuration](https://github.com/sleipnir029/Rahat_Rakibuzzaman_WerkStudent_Python?tab=readme-ov-file#-json-configuration)
+6. [JSON Configuration](https://github.com/sleipnir029/Rahat_Rakibuzzaman_WerkStudent_Python?tab=readme-ov-file#3%EF%B8%8F-pdf_configjson)
 7. [Troubleshooting](https://github.com/sleipnir029/Rahat_Rakibuzzaman_WerkStudent_Python?tab=readme-ov-file#-troubleshooting)
 8. [Limitations](https://github.com/sleipnir029/Rahat_Rakibuzzaman_WerkStudent_Python?tab=readme-ov-file#%EF%B8%8F-limitations)
 
