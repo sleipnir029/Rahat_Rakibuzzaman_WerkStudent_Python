@@ -84,6 +84,7 @@ sample_invoice_2.pdf;2016-11-26;950.00 $;921.50
 ├── pdf_config.json            # JSON config file for dynamic extraction
 ├── sample_invoice_1.pdf       # Sample invoice
 ├── sample_invoice_2.pdf       # Sample invoice
+├── sample_output/             # Provided examples of the Excel and CSV format
 ├── output.xlsx                # Extracted data in Excel format
 ├── output.csv                 # Extracted data in CSV format
 └── annotated_documents/       # Folder containing annotated PDFs
