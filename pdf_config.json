@@ -1,0 +1,26 @@
+{
+    "sample_invoice_1.pdf": {
+        "Date": {
+            "keyword": "Date",
+            "offset": 1,
+            "page": 1
+        },
+        "Value": {
+            "keyword": "Gross Amount incl. VAT",
+            "offset": 1,
+            "page": 1
+        }
+    },
+    "sample_invoice_2.pdf": {
+        "Date": {
+            "keyword": "Invoice date:",
+            "offset": 1,
+            "page": 1
+        },
+        "Value": {
+            "keyword": "Total",
+            "offset": 1,
+            "page": 1
+        }
+    }
+}
