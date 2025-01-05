@@ -1,7 +1,7 @@
 # 📄 PDF Data Extraction
 
 ## 📋 Introduction
-This script provides a **scalable and reusable** solution for **extracting structured data** from PDFs and **annotating PDFs** for offset identification. 
+This script provides a **scalable and reusable** solution for **extracting structured data** from PDFs and **annotating PDFs** for offset identification as part of the interview task for the WerkStudent in python.
 
 It automates the process of:
 - Extracting **structured data** from PDF invoices.
