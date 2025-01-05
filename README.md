@@ -1,7 +1,7 @@
 # 📄 PDF Data Extraction
 
 ## 📋 Introduction
-This script provides a **scalable and reusable** solution for **extracting structured data** from PDFs and **annotating PDFs** for offset identification. 
+This script provides a **scalable and reusable** solution for **extracting structured data** from PDFs and **annotating PDFs** for offset identification as part of the interview task for the WerkStudent in python.
 
 It automates the process of:
 - Extracting **structured data** from PDF invoices.
@@ -54,14 +54,14 @@ sample_invoice_2.pdf;2016-11-26;950.00 $;921.50
 ---
 
 ## 📚 Table of Contents
-1. [Features](#features)
-2. [Project Structure](#project-structure)
-3. [Installation & Running the Code](#installation--running-the-code)
-4. [Building Executable from Source](#building-executable-from-source)
-5. [Code Structure & How it Works](#code-structure--how-it-works)
-6. [JSON Configuration](#json-configuration)
-7. [Troubleshooting](#troubleshooting)
-8. [Limitations](#limitations)
+1. [Features](https://github.com/sleipnir029/Rahat_Rakibuzzaman_WerkStudent_Python?tab=readme-ov-file#-features)
+2. [Project Structure](https://github.com/sleipnir029/Rahat_Rakibuzzaman_WerkStudent_Python?tab=readme-ov-file#-project-structure)
+3. [Installation & Running the Code](https://github.com/sleipnir029/Rahat_Rakibuzzaman_WerkStudent_Python?tab=readme-ov-file#-installation--running-the-code)
+4. [Building Executable from Source](https://github.com/sleipnir029/Rahat_Rakibuzzaman_WerkStudent_Python?tab=readme-ov-file#%EF%B8%8F-building-executable-from-source)
+5. [Code Structure & How it Works](https://github.com/sleipnir029/Rahat_Rakibuzzaman_WerkStudent_Python?tab=readme-ov-file#-code-structure--how-it-works)
+6. [JSON Configuration](https://github.com/sleipnir029/Rahat_Rakibuzzaman_WerkStudent_Python?tab=readme-ov-file#3%EF%B8%8F-pdf_configjson)
+7. [Troubleshooting](https://github.com/sleipnir029/Rahat_Rakibuzzaman_WerkStudent_Python?tab=readme-ov-file#-troubleshooting)
+8. [Limitations](https://github.com/sleipnir029/Rahat_Rakibuzzaman_WerkStudent_Python?tab=readme-ov-file#%EF%B8%8F-limitations)
 
 ---
 
@@ -185,7 +185,7 @@ python pdf_annotation.py --output_folder "custom_annotated_pdfs" --rectangle_col
 The **`pdf_config.json`** file is a key component that tells the script **what data** to extract from each PDF. Users can specify the **keywords**, the **offset (relative position of values)**, and the **page number** to scan.
 
 
-### 📝 **JSON File Structure**
+### 📝 **JSON Configuration**
 Here’s an example `pdf_config.json`:
 
 ```json
